@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: none;
+  background-position: top;
+
+  font-size: 16px;
+
+  /* position: relative; */
+}
+
+.wrapper-container {
+  height: 510px;
+  width: 350px;
+  background-color: hsl(225, 100%, 98%);
+
+  border-radius: 15px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  box-shadow: 5px 8px 45px hsl(224, 23%, 55%);
+}
+
+.illustration-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 350px;
+
+  margin-bottom: 24px;
+}
+
+.main-header {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 14px;
+  padding: 0 40px;
+  margin-bottom: 11px;
+  font-weight: 500;
+}
+
+.annual-plan {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+  margin: 0 24px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.wrapper-annaul {
+  /* width: 55%; */
+  display: flex;
+  align-items: center;
+}
+
+.icon-music {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.annual-heading {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.annaul-link {
+  font-weight: 500;
+}
+.annaul-link:hover {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+
+.payment-link {
+  color: hsl(225, 100%, 98%);
+  text-decoration: none;
+  font-weight: 500;
+
+  display: block;
+  padding: 11px;
+  background-color: hsl(245, 75%, 52%);
+  text-align: center;
+  margin: 0 24px;
+  border-radius: 10px;
+
+  box-shadow: 5px 8px 15px hsl(224, 23%, 55%);
+
+  margin-bottom: 16px;
+}
+
+.payment-link:hover {
+  background-color: hsl(245, 75%, 62%);
+}
+
+.cancel-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+
+  font-weight: 500;
+}
+
+.cancel-link:hover {
+  color: #252525;
+}
